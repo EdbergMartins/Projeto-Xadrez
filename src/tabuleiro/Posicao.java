@@ -36,7 +36,7 @@ public class Posicao {
 
 	@Override
 	public String toString() {
-		return "Posicao:\nLinha=" + getLinha() + " Coluna=" + getColuna();
+		return "Posicao:\nLinha=" + getLinha() + ", Coluna=" + getColuna();
 	}
 	
 
