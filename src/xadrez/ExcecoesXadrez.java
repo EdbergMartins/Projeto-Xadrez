@@ -1,6 +1,8 @@
 package xadrez;
 
-public class ExcecoesXadrez extends RuntimeException {
+import tabuleiro.ExcecoesTabuleiro;
+
+public class ExcecoesXadrez extends ExcecoesTabuleiro {
 	private static final long serialVersionUID = 1L;
 	
 	public ExcecoesXadrez (String msg) {
